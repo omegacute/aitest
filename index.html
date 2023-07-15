@@ -12,24 +12,23 @@
 
 <body>
   <div>묵찌빠 구별</div>
-  <button type="button" onclick="init()">Start</button>
+  <button type="button" onclick="init()">시작</button>
   <script>
     //19_원래는 for을 돌면서 웹캠을 실행시켜 줬으나, 여기서는 한 번 만으로 예측을 해야 하므로, 아래와 같은 새로운 버튼 추가
   </script>
-  <button type="button" onclick="predict()">Prediction</button>
+  <button type="button" onclick="predict()">판별</button>
 
   <script>// 00_버튼을 클릭하면, 아래 init()이라는 함수를 실행!</script>
 
   <script>//09_아래는 코드펜의 html 내용</script>
   <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <div class="file-upload">
-    <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add
-      Image</button>
+    <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">이미지 추가하기</button>
 
     <div class="image-upload-wrap">
       <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
       <div class="drag-text">
-        <h3>Drag and drop a file or select add Image</h3>
+        <h3>파일을 드래그해 업로드하세요!</h3>
       </div>
     </div>
     <div class="file-upload-content">
